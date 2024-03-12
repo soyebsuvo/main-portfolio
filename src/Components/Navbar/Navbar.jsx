@@ -22,10 +22,10 @@ export default function Navbar() {
                 {links}
               </ul>
             </div>
-            <a className="btn btn-ghost text-3xl">
+            <button className="btn btn-ghost text-3xl">
               <img className="w-12 h-12 rounded-full border p-[1px]" src={logo} alt="profile" />
               <span className="font-Montserrat">Soyeb</span>
-            </a>
+            </button>
           </div>
           <div className="hidden md:flex">
             <ul className="menu menu-horizontal px-1 font-Montserrat">
