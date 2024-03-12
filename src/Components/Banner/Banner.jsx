@@ -38,7 +38,7 @@ export default function Banner() {
                     </div>
                 </div>
             </div>
-            <hr className="border-b border-[1px] my-6 border-black"/>
+            <hr className="border-b border-[0px] my-6 border-black"/>
         </div>
     )
 }

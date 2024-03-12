@@ -24,7 +24,7 @@ export default function Navbar() {
             </div>
             <a className="btn btn-ghost text-3xl">
               <img className="w-12 h-12 rounded-full border p-[1px]" src={logo} alt="profile" />
-              <span>Soyeb</span>
+              <span className="font-Montserrat">Soyeb</span>
             </a>
           </div>
           <div className="hidden md:flex">
