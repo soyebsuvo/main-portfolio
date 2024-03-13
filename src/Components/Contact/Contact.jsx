@@ -14,7 +14,7 @@ export default function Contact() {
             <div className="forShadow p-6">
               <div className="space-y-3">
                 <img className="rounded-lg" src={contact} alt="" />
-                <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F] pt-2">Md Soyeb Been Hasan</h2>
+                <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 pt-2">Md Soyeb Been Hasan</h2>
                 <h4 className="text-gray-400 text-sm">MERN Stack Developer</h4>
                 <h4 className="text-gray-400 text-sm">I am available for freelance work. Connect with me via email and call in to my account.</h4>
                 <h4 className="text-gray-400 text-sm">Phone: <a className="text-white" href="tel:+8801746122445">+880 17461-22445</a></h4>
@@ -62,7 +62,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <hr className="border-b border-[0px] my-14 border-black" />
+      <hr className="border-b border-[0px] my-14 mt-32 border-black" />
     </div>
   )
 }

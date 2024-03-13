@@ -1,5 +1,6 @@
 import Banner from "../Components/Banner/Banner";
 import Contact from "../Components/Contact/Contact";
+import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Projects from "../Components/Projects/Projects";
 import Work from "../Components/Work/Work";
@@ -12,6 +13,7 @@ export default function Home() {
       <Work></Work>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   )
 }

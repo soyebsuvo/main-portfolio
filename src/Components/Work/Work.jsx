@@ -45,7 +45,7 @@ export default function Work() {
                     
                 </div>
             </div>
-            <hr className="border-b border-[0px] my-6 border-black"/>
+            <hr className="border-b border-[0px] my-14 mt-24 border-black"/>
         </div>
     )
 }

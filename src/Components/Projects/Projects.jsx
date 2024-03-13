@@ -68,7 +68,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            <hr className="border-b border-[0px] my-14 border-black"/>
+            <hr className="border-b border-[0px] my-14 mt-32 border-black"/>
         </div>
     )
 }

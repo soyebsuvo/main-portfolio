@@ -5,8 +5,8 @@ import { SiExpress } from "react-icons/si";
 import profile from "../../assets/profile.png"
 export default function Banner() {
     return (
-        <div className="max-w-7xl mx-auto px-2 md:px-20 min-h-screen py-3">
-            <div className="flex items-center h-screen">
+        <div className="max-w-7xl mx-auto px-2 md:px-20 min-h-[570px] py-3">
+            <div className="flex items-center h-[570px]">
                 <div className="md:w-1/2">
                     <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-sm">Welcome to my world</h3>
                     <h2 className="text-5xl text-white font-Montserrat font-bold pt-3 pb-2">Hi, I&apos;m <span className="text-[#FF014F]">Md Soyeb</span></h2>
@@ -38,7 +38,7 @@ export default function Banner() {
                     </div>
                 </div>
             </div>
-            <hr className="border-b border-[0px] my-6 border-black"/>
+            <hr className="border-b border-[0px] mb-8 border-black"/>
         </div>
     )
 }
