@@ -7,7 +7,7 @@ export default function About() {
                 {/* tabs */}
                 <div style={{transform : "none"}} className="flex h-full justify-center text-gray-300 forShadow">
                     <NavLink className="w-full forShadowHover" to="/"><button className="w-full h-full py-3">Education</button></NavLink>
-                    <NavLink className="w-full forShadowHover" to="/about/two"><button className="w-full h-full py-3">Proffesional Skills</button></NavLink>
+                    <NavLink className="w-full forShadowHover" to="/about/skills"><button className="w-full h-full py-3">Proffesional Skills</button></NavLink>
                     <NavLink className="w-full forShadowHover" to="/about/three"><button className="w-full h-full py-3">Experience</button></NavLink>
                 </div>
             </div>

@@ -3,6 +3,7 @@ import MainLayout from "../Layouts/MainLayout";
 import Home from "../Pages/Home";
 // import Contact from "../Components/Contact/Contact";
 import Timeline from "../Components/Education/Timeline";
+import Skills from "../Components/Skills/Skills";
 
 const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
                     {
                         path : "/",
                         element : <Timeline></Timeline>
+                    },
+                    {
+                        path : "/about/skills",
+                        element : <Skills></Skills>
                     }
                 ]
             }

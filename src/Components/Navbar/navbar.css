@@ -3,7 +3,7 @@ nav a.active{
     color: white !important;
     /* text-decoration: underline !important; */
     font-weight:  bold !important;
-    
+    box-shadow: none;
 }
 nav a{
     font-size: 14px;
