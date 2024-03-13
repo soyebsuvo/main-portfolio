@@ -2,7 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html{
+    scroll-behavior: smooth;
+}
 .forShadow{
     box-shadow: 10px 10px 19px #1c1e22, 
                 -10px -10px 19px #262a2e;

@@ -5,7 +5,7 @@ import { SiBackendless, SiFrontendmentor, SiMaterialdesign } from "react-icons/s
 
 export default function Work() {
     return (
-        <div className="max-w-7xl mx-auto px-2 md:px-20 py-3 font-Montserrat">
+        <div id="service" className="max-w-7xl mx-auto px-2 md:px-20 py-3 font-Montserrat">
             <div className="pb-8">
                 <div className="mb-14">
                     <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">Features</h3>

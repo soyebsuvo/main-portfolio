@@ -8,7 +8,7 @@ import project4 from "../../assets/project4.jpg"
 import project5 from "../../assets/project5.jpg"
 export default function Projects() {
     return (
-        <div className="max-w-7xl mx-auto px-2 md:px-20 py-3 font-Montserrat">
+        <div id="projects" className="max-w-7xl mx-auto px-2 md:px-20 py-3 font-Montserrat">
             <div>
                 <div className="mb-14 text-center">
                     <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h3>

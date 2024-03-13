@@ -3,11 +3,12 @@ import "./navbar.css"
 import logo from "../../assets/logo3.png"
 export default function Navbar() {
   const links = <>
-    <NavLink to="/"><li><a>Home</a></li></NavLink>
-    <NavLink to="/about"><li><a>About</a></li></NavLink>
-    <NavLink to="/aboudt"><li><a>Service</a></li></NavLink>
-    <NavLink to="/aboutd"><li><a>Testimonial</a></li></NavLink>
-    <NavLink to="/aboutd"><li><a>Contact</a></li></NavLink>
+    <NavLink className="/"><li><a href="">Home</a></li></NavLink>
+    <li><a href="#service">Service</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact">Contact</a></li>
   </>
   return (
     <div className="max-w-7xl mx-auto px-2 md:px-12 py-3">

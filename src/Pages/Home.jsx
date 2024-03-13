@@ -12,10 +12,10 @@ export default function Home() {
     <div>
       <Navbar></Navbar>
       <Banner></Banner>
-      <Testimonial></Testimonial>
       <Work></Work>
       <About></About>
       <Projects></Projects>
+      <Testimonial></Testimonial>
       <Contact></Contact>
       <Footer></Footer>
     </div>

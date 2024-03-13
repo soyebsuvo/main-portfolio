@@ -21,7 +21,7 @@ function PreviousNextMethods() {
         arrows: false
     };
     return (
-        <div className="slider-container max-w-7xl mx-auto px-2 md:px-32 font-Montserrat py-8 relative">
+        <div id="testimonials" className="slider-container max-w-7xl mx-auto px-2 md:px-32 font-Montserrat py-8 relative">
             <div className="mb-14 text-center">
                 <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">What client says</h3>
                 <h2 className="text-5xl font-bold text-white mt-2">Testimonials</h2>
@@ -146,6 +146,7 @@ function PreviousNextMethods() {
                     <FaArrowRight />
                 </button>
             </div>
+            <hr className="border-b border-[0px] my-14 mt-32 border-black"/>
         </div>
     );
 }
