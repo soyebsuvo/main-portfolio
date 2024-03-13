@@ -1,0 +1,20 @@
+div a.active{
+    background: none !important;
+    color: #FF014F !important;
+    /* text-decoration: underline !important; */
+    font-weight:  bold !important;
+    box-shadow: 10px 10px 19px #1c1e22, 
+                -10px -10px 19px #262a2e;
+    border-radius: 6px;
+    transition: all .5s;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}
+div a{
+    font-size: 14px;
+    font-weight: 400;
+    transition: color .5s;
+}
+div a:hover{
+    background: none !important;
+    color: #FF014F;
+}

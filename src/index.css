@@ -10,6 +10,13 @@
     transition: all .5s;
     background: linear-gradient(145deg, #1e2024, #23272b);
 }
+.forShadowHover:hover{
+    box-shadow: 10px 10px 19px #1c1e22, 
+                -10px -10px 19px #262a2e;
+    border-radius: 6px;
+    transition: all .5s;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}
 .forShadow:hover{
     transform: translateY(-5px);
     background-color: #1e2024 !important;
