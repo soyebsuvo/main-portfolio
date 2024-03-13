@@ -11,7 +11,7 @@ export default function Banner() {
                     <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-sm">Welcome to my world</h3>
                     <h2 className="text-5xl text-white font-Montserrat font-bold pt-3 pb-2">Hi, I&apos;m <span className="text-[#FF014F]">Md Soyeb</span></h2>
                     <h2 className="text-5xl text-white font-Montserrat font-bold pt-3 pb-2">a UI/UX Designer</h2>
-                    <p className="text-gray-300 text-sm mt-3">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I&apos;m not adding motion just to spruce things up, but doing it in ways that.</p>
+                    <p className="text-gray-300 text-sm mt-3">MERN Stack Developer with a year of expertise in React, Node.js, MongoDB. Committed to excellence and ongoing learning.</p>
                     <div className="flex py-8 mt-16">
                         <div className="w-1/2">
                             <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-[10px] mb-4">Find With Me</h3>
