@@ -26,7 +26,7 @@ export default function Banner() {
     return (
         <div className="max-w-7xl mx-auto px-5 md:px-20 md:min-h-[570px] py-3">
             <div className="flex flex-col md:flex-row items-center md:h-[570px]">
-                <div className="md:w-1/2">
+                <div className="md:w-1/2 px-4">
                     <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-sm">Welcome to my world</h3>
                     <h2 className="text-3xl md:text-5xl text-white font-Montserrat font-bold pt-2 md:pt-3 pb-2">Hi, I&apos;m <span className="text-[#FF014F]">Md Soyeb</span></h2>
                     <h2 className="text-3xl md:text-5xl text-white font-Montserrat font-bold pt-0 md:pt-3 pb-2">a&nbsp;
