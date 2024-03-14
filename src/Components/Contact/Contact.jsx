@@ -4,14 +4,20 @@ export default function Contact() {
   return (
     <div id="contact" className="max-w-7xl mx-auto px-2 md:px-20 py-3 mt-8 font-Montserrat">
       <div>
-        <div className="mb-14 text-center">
+        <div data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-ofset="500"
+          data-aos-duration="500" className="mb-14 text-center">
           <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">Contact</h3>
           <h2 className="text-5xl font-bold text-white mt-2">Contact With Me</h2>
         </div>
 
         <div className="flex gap-8">
           <div className="md:w-2/6">
-            <div className="forShadow p-6">
+            <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-ofset="500"
+              data-aos-duration="500" className="forShadow p-6">
               <div className="space-y-3">
                 <img className="rounded-lg" src={contact} alt="" />
                 <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 pt-2">Md Soyeb Been Hasan</h2>
@@ -32,7 +38,10 @@ export default function Contact() {
           </div>
           <div className="md:w-4/6">
             {/* form  */}
-            <div className="forShadow p-6 pb-9">
+            <div data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-ofset="500"
+              data-aos-duration="500" className="forShadow p-6 pb-9">
               <form>
                 <div className="flex items-center w-full gap-4">
                   <div className="flex flex-col gap-3 mb-3 w-full">

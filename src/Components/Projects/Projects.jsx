@@ -16,59 +16,74 @@ export default function Projects() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div className="forShadow p-6">
+                    <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-ofset="500"
+                        data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
-                            <img className="rounded-lg" src={project} alt="" />
-                            <div className="flex items-center gap-6 pt-3">
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Client</h4>
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Server</h4>
+                            <a href="https://assignment-12-homez.web.app" target="_blank"><img className="rounded-lg" src={project} alt="" /></a>                            
+                            <div className="flex items-center gap-6 py-3">
+                                <a href="https://github.com/soyebsuvo/a12-homez-website-client" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Client</a>
+                                <a href="https://github.com/soyebsuvo/a12-homez-website-server" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Server</a>
                             </div>
-                            <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2"/>Homez - A Real State Platform</h2>
+                            <a href="https://assignment-12-homez.web.app" target="_blank" className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2" />Homez - A Real State Platform</a>
                         </div>
                     </div>
-                    <div className="forShadow p-6">
+                    <div data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-ofset="500"
+                        data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
-                            <img className="rounded-lg" src={project2} alt="" />
-                            <div className="flex items-center gap-6 pt-3">
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Client</h4>
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Server</h4>
+                            <a href="https://assignment-11-35e68.web.app" target="_blank"><img className="rounded-lg" src={project2} alt="" /></a>
+                            <div className="flex items-center gap-6 py-3">
+                                <a href="https://github.com/soyebsuvo/a11-grillino-rastaurant-website-client" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Client</a>
+                                <a href="https://github.com/soyebsuvo/a11-grillino-rastaurant-website-server" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Server</a>
                             </div>
-                            <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2"/>Grillino - Restaurant Management Website</h2>
+                            <a href="https://assignment-11-35e68.web.app" target="_blank" className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2" />Grillino - Restaurant Management Website</a>
                         </div>
                     </div>
-                    <div className="forShadow p-6">
+                    <div data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-ofset="500"
+                        data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
-                            <img className="rounded-lg" src={project3} alt="" />
-                            <div className="flex items-center gap-6 pt-3">
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Client</h4>
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Server</h4>
+                            <a href="https://purring-deer.surge.sh" target="_blank"><img className="rounded-lg" src={project3} alt="" /></a>
+                            <div className="flex items-center gap-6 py-3">
+                                <a href="https://github.com/soyebsuvo/a10-brand-shop-client" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Client</a>
+                                <a href="https://github.com/soyebsuvo/a10-brand-shop-server" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Server</a>
                             </div>
-                            <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2"/>Automative - A Brand Shop (E-Commerce)</h2>
+                            <a href="https://purring-deer.surge.sh" target="_blank" className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2" />Automative - A Brand Shop (E-Commerce)</a>
                         </div>
                     </div>
-                    <div className="forShadow p-6">
+                    <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-ofset="500"
+                        data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
-                            <img className="rounded-lg" src={project4} alt="" />
-                            <div className="flex items-center gap-6 pt-3">
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Client</h4>
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Server</h4>
+                            <a href="https://event-management-assignm-e79f0.web.app" target="_blank"><img className="rounded-lg" src={project4} alt="" /></a>
+                            <div className="flex items-center gap-6 py-3">
+                                <a href="https://github.com/soyebsuvo/a9-event-management-website" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Client</a>
+                                <a href="https://github.com/soyebsuvo/event-management-server" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Server</a>
                             </div>
-                            <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2"/>Social Events - Events Management Website</h2>
+                            <a href="https://event-management-assignm-e79f0.web.app" target="_blank" className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2" />Social Events - Events Management Website</a>
                         </div>
                     </div>
-                    <div className="forShadow p-6">
+                    <div data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-ofset="500"
+                        data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
-                            <img className="rounded-lg" src={project5} alt="" />
-                            <div className="flex items-center gap-6 pt-3">
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Client</h4>
-                                <h4 className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className=""/>Server</h4>
+                            <a href="https://soyebsuvo.github.io/du-project" target="_blank"><img className="rounded-lg" src={project5} alt="" /></a>
+                            <div className="flex items-center gap-6 py-3">
+                                <a href="https://github.com/soyebsuvo/du-project" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Client</a>
+                                {/* <a href="" target="_blank" className="text-[#FF014F] text-sm cursor-pointer flex items-center gap-1"><FiGithub className="" />Server</a> */}
                             </div>
-                            <h2 className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2"/>Dhaka University Academic Website</h2>
+                            <a href="https://soyebsuvo.github.io/du-project" target="_blank" className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2" />Dhaka University Academic Website</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr className="border-b border-[0px] my-14 mt-32 border-black"/>
+            <hr className="border-b border-[0px] my-14 mt-32 border-black" />
         </div>
     )
 }

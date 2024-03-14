@@ -3,7 +3,10 @@ import './about.css'
 export default function About() {
     return (
         <div id="about" className="max-w-7xl mx-auto px-2 md:px-20 font-Montserrat">
-            <div className="mb-14 text-center">
+            <div data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-ofset="500"
+                    data-aos-duration="500" className="mb-14 text-center">
                 <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">Portfolio</h3>
                 <h2 className="text-5xl font-bold text-white mt-2">About Me</h2>
             </div>

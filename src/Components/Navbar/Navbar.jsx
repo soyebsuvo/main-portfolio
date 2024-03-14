@@ -1,17 +1,30 @@
-import { NavLink } from "react-router-dom"
+// import { NavLink } from "react-router-dom"
 import "./navbar.css"
 import logo from "../../assets/logo3.png"
+import { useState } from "react"
 export default function Navbar() {
+  const handleGoToTop = () => {
+    window.scrollTo(0,0)
+  }
   const links = <>
-    <NavLink className="/"><li><a href="">Home</a></li></NavLink>
+    <li onClick={handleGoToTop}><a>Home</a></li>
     <li><a href="#service">Service</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#testimonials">Testimonials</a></li>
     <li><a href="#contact">Contact</a></li>
   </>
+      const [fixedNav, setFixedNav] = useState(false)
+      const changeNav = () => {
+          if (window.scrollY >= 90) {
+            setFixedNav(true)
+          } else {
+            setFixedNav(false)
+          }
+      }
+      window.addEventListener('scroll', changeNav)
   return (
-    <div className="max-w-7xl mx-auto px-2 md:px-12 py-3">
+    <div className={`max-w-7xl mx-auto px-2 md:px-12 py-3 ${fixedNav ? 'sticky top-0 backdrop-blur-lg z-50' : 'static'}`}>
       <nav>
         <div className="md:flex justify-between items-center text-gray-300">
           <div className="flex justify-between items-center w-full md:w-fit flex-row-reverse">
@@ -34,10 +47,11 @@ export default function Navbar() {
             </ul>
           </div>
           <div className="hidden md:flex">
-            <a className="text-[#FF014F] cursor-pointer font-Montserrat px-[30px] py-[10px] text-[14px] forShadow">Hire Me</a>
+            <a href="#contact" className="text-[#FF014F] cursor-pointer font-Montserrat px-[30px] py-[10px] text-[14px] forShadow">Hire Me</a>
           </div>
         </div>
       </nav>
+      
     </div>
   )
 }

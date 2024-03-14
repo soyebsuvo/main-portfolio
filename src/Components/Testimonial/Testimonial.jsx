@@ -22,7 +22,10 @@ function PreviousNextMethods() {
     };
     return (
         <div id="testimonials" className="slider-container max-w-7xl mx-auto px-2 md:px-32 font-Montserrat py-8 relative">
-            <div className="mb-14 text-center">
+            <div data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-ofset="500"
+                    data-aos-duration="500" className="mb-14 text-center">
                 <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">What client says</h3>
                 <h2 className="text-5xl font-bold text-white mt-2">Testimonials</h2>
             </div>
@@ -32,7 +35,11 @@ function PreviousNextMethods() {
                 }}
                 {...settings}
             >
-                <div key={1}>
+                <div data-aos="fade-in"
+                    data-aos-offset="300"
+                    data-aos-ofset="500"
+                    data-aos-duration="800"
+                    data-aos-delay="300" key={1}>
                     <div>
                         <div className="flex gap-12">
                             <div className="forShadow p-6 md:w-2/6 mb-9">
@@ -138,7 +145,10 @@ function PreviousNextMethods() {
                     <h3>6</h3>
                 </div> */}
             </Slider>
-            <div style={{ textAlign: "center" }} className="absolute top-44 right-32">
+            <div data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-ofset="500"
+                    data-aos-duration="500" style={{ textAlign: "center" }} className="absolute top-44 right-32">
                 <button className="p-4 forShadow text-white hover:text-[#FF014F]" onClick={previous}>
                     <FaArrowLeft />
                 </button>
