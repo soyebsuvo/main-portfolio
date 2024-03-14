@@ -30,8 +30,8 @@ export default function Navbar() {
   }
   window.addEventListener('scroll', changeNav)
   return (
-    <div>
-      <div className={`max-w-7xl mx-auto px-2 md:px-12 py-3 relative ${fixedNav ? 'sticky top-0 backdrop-blur-lg z-50' : 'static'}`}>
+    <div className={`max-w-7xl mx-auto px-2 md:px-12 py-3 ${fixedNav ? 'sticky top-0 backdrop-blur-lg z-50' : 'static'}`}>
+      <div>
         <nav>
           <div className="md:flex justify-between items-center text-gray-300">
             <div className="flex justify-between items-center w-full md:w-fit flex-row-reverse">
