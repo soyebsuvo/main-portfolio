@@ -8,7 +8,7 @@ import project4 from "../../assets/project4.jpg"
 import project5 from "../../assets/project5.jpg"
 export default function Projects() {
     return (
-        <div id="projects" className="max-w-7xl mx-auto px-2 md:px-20 py-3 font-Montserrat">
+        <div id="projects" className="max-w-7xl mx-auto px-6 md:px-20 py-3 font-Montserrat">
             <div>
                 <div className="mb-14 text-center">
                     <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h3>
@@ -18,7 +18,7 @@ export default function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div data-aos="fade-right"
                         data-aos-offset="300"
-                        data-aos-ofset="500"
+                        
                         data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
                             <a href="https://assignment-12-homez.web.app" target="_blank"><img className="rounded-lg" src={project} alt="" /></a>                            
@@ -31,7 +31,7 @@ export default function Projects() {
                     </div>
                     <div data-aos="fade-up"
                         data-aos-offset="300"
-                        data-aos-ofset="500"
+                        
                         data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
                             <a href="https://assignment-11-35e68.web.app" target="_blank"><img className="rounded-lg" src={project2} alt="" /></a>
@@ -42,9 +42,9 @@ export default function Projects() {
                             <a href="https://assignment-11-35e68.web.app" target="_blank" className="text-white font-semibold text-2xl cursor-pointer duration-300 hover:text-[#FF014F]"><FaLink className="inline mr-2" />Grillino - Restaurant Management Website</a>
                         </div>
                     </div>
-                    <div data-aos="fade-left"
+                    <div data-aos="fade-down"
                         data-aos-offset="300"
-                        data-aos-ofset="500"
+                        
                         data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
                             <a href="https://purring-deer.surge.sh" target="_blank"><img className="rounded-lg" src={project3} alt="" /></a>
@@ -57,7 +57,7 @@ export default function Projects() {
                     </div>
                     <div data-aos="fade-right"
                         data-aos-offset="300"
-                        data-aos-ofset="500"
+                        
                         data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
                             <a href="https://event-management-assignm-e79f0.web.app" target="_blank"><img className="rounded-lg" src={project4} alt="" /></a>
@@ -70,7 +70,7 @@ export default function Projects() {
                     </div>
                     <div data-aos="fade-up"
                         data-aos-offset="300"
-                        data-aos-ofset="500"
+                        
                         data-aos-duration="500" className="forShadow p-6">
                         <div className="space-y-2">
                             <a href="https://soyebsuvo.github.io/du-project" target="_blank"><img className="rounded-lg" src={project5} alt="" /></a>

@@ -2,21 +2,19 @@ import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
 import contact from "../../assets/contact1.png"
 export default function Contact() {
   return (
-    <div id="contact" className="max-w-7xl mx-auto px-2 md:px-20 py-3 mt-8 font-Montserrat">
+    <div id="contact" className="max-w-7xl mx-auto px-5 md:px-20 py-3 mt-8 font-Montserrat">
       <div>
         <div data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-ofset="500"
+          data-aos-offset="300"          
           data-aos-duration="500" className="mb-14 text-center">
           <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">Contact</h3>
           <h2 className="text-5xl font-bold text-white mt-2">Contact With Me</h2>
         </div>
 
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-2/6">
             <div data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-ofset="500"
+              data-aos-offset="300"              
               data-aos-duration="500" className="forShadow p-6">
               <div className="space-y-3">
                 <img className="rounded-lg" src={contact} alt="" />
@@ -28,9 +26,9 @@ export default function Contact() {
                 <div className="py-3">
                   <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-[10px] mb-4">Find With Me</h3>
                   <div className="flex gap-5">
-                    <button className="p-4 forShadow"><FiFacebook className="text-white text-xl" /></button>
-                    <button className="p-4 forShadow"><FiGithub className="text-white text-xl" /></button>
-                    <button className="p-4 forShadow"><FiLinkedin className="text-white text-xl" /></button>
+                    <a href="https://web.facebook.com/kned.suvo" target="_blank" className="p-4 forShadow"><FiFacebook className="text-white text-xl" /></a>
+                    <a href="https://github.com/soyebsuvo" target="_blank" className="p-4 forShadow"><FiGithub className="text-white text-xl" /></a>
+                    <a href="https://www.linkedin.com/in/soyeb-suvo" target="_blank" className="p-4 forShadow"><FiLinkedin className="text-white text-xl" /></a>
                   </div>
                 </div>
               </div>
@@ -38,12 +36,11 @@ export default function Contact() {
           </div>
           <div className="md:w-4/6">
             {/* form  */}
-            <div data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-ofset="500"
+            <div data-aos="fade-up"
+              data-aos-offset="300"              
               data-aos-duration="500" className="forShadow p-6 pb-9">
               <form>
-                <div className="flex items-center w-full gap-4">
+                <div className="md:flex items-center w-full gap-4">
                   <div className="flex flex-col gap-3 mb-3 w-full">
                     <label style={{ letterSpacing: "2px", fontSize: "11px" }} className="font-Montserrat uppercase text-gray-400 text-sm" htmlFor="name">Your Name</label>
                     <input className="myInput" type="text" name="name" id="name" />

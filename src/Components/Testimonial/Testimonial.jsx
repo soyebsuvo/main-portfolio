@@ -21,10 +21,10 @@ function PreviousNextMethods() {
         arrows: false
     };
     return (
-        <div id="testimonials" className="slider-container max-w-7xl mx-auto px-2 md:px-32 font-Montserrat py-8 relative">
+        <div id="testimonials" className="slider-container max-w-7xl mx-auto px-5 md:px-32 font-Montserrat py-8 relative">
             <div data-aos="fade-up"
                     data-aos-offset="300"
-                    data-aos-ofset="500"
+                    
                     data-aos-duration="500" className="mb-14 text-center">
                 <h3 className="text-[#FF014F] uppercase font-Montserrat mt-2 text-sm">What client says</h3>
                 <h2 className="text-5xl font-bold text-white mt-2">Testimonials</h2>
@@ -37,11 +37,11 @@ function PreviousNextMethods() {
             >
                 <div data-aos="fade-in"
                     data-aos-offset="300"
-                    data-aos-ofset="500"
+                    
                     data-aos-duration="800"
-                    data-aos-delay="300" key={1}>
+                    data-aos-delay="" key={1}>
                     <div>
-                        <div className="flex gap-12">
+                        <div className="flex flex-col md:flex-row md:gap-12">
                             <div className="forShadow p-6 md:w-2/6 mb-9">
                                 <div className="space-y-2">
                                     <img className="rounded-lg w-full h-[175px]" src={project2} alt="" />
@@ -52,9 +52,9 @@ function PreviousNextMethods() {
                                     <h4 className="text-gray-300 text-sm cursor-pointer flex items-center gap-1">Chief Operating Officer</h4>
                                 </div>
                             </div>
-                            <div className="md:w-4/6 text-white forShadow p-6 h-[250px] mt-[80px]">
+                            <div className="md:w-4/6 text-white forShadow p-6 h-[340px] md:h-[250px] mt-[60px] md:mt-[80px]">
                                 <div>
-                                    <div className="flex justify-between items-center relative">
+                                    <div className="flex flex-col md:flex-row justify-between items-center relative">
                                         <FaRegComment className="text-gray-300 text-5xl absolute -top-24" />
                                         <div>
                                             <h2 className="text-2xl font-semibold">Web Development</h2>
@@ -64,7 +64,7 @@ function PreviousNextMethods() {
                                             <h2 className="px-4 py-2 forShadow">4/5</h2>
                                         </div>
                                     </div>
-                                    <hr className="border-b border-[0px] mb-8 border-black" />
+                                    <hr className="border-b border-[0px] mb-8 mt-4 md:mt-0 border-black" />
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, magni? Rerum nesciunt tenetur placeat laudantium deserunt, facilis ea velit! Ut.</p>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ function PreviousNextMethods() {
                 </div>
                 <div key={2}>
                     <div>
-                        <div className="flex gap-12">
+                        <div className="flex flex-col md:flex-row md:gap-12">
                             <div className="forShadow p-6 md:w-2/6 mb-9">
                                 <div className="space-y-2">
                                     <img className="rounded-lg w-full h-[175px]" src={project2} alt="" />
@@ -84,9 +84,9 @@ function PreviousNextMethods() {
                                     <h4 className="text-gray-300 text-sm cursor-pointer flex items-center gap-1">Chief Operating Officer</h4>
                                 </div>
                             </div>
-                            <div className="md:w-4/6 text-white forShadow p-6 h-[250px] mt-[80px]">
+                            <div className="md:w-4/6 text-white forShadow p-6 h-[340px] md:h-[250px] mt-[60px] md:mt-[80px]">
                                 <div>
-                                    <div className="flex justify-between items-center relative">
+                                    <div className="flex flex-col md:flex-row justify-between items-center relative">
                                         <FaRegComment className="text-gray-300 text-5xl absolute -top-24" />
                                         <div>
                                             <h2 className="text-2xl font-semibold">Web Development</h2>
@@ -96,7 +96,7 @@ function PreviousNextMethods() {
                                             <h2 className="px-4 py-2 forShadow">4/5</h2>
                                         </div>
                                     </div>
-                                    <hr className="border-b border-[0px] mb-8 border-black" />
+                                    <hr className="border-b border-[0px] mb-8 mt-4 md:mt-0 border-black" />
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, magni? Rerum nesciunt tenetur placeat laudantium deserunt, facilis ea velit! Ut.</p>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ function PreviousNextMethods() {
                 </div>
                 <div key={3}>
                     <div>
-                        <div className="flex gap-12">
+                        <div className="flex flex-col md:flex-row md:gap-12">
                             <div className="forShadow p-6 md:w-2/6 mb-9">
                                 <div className="space-y-2">
                                     <img className="rounded-lg w-full h-[175px]" src={project2} alt="" />
@@ -116,9 +116,9 @@ function PreviousNextMethods() {
                                     <h4 className="text-gray-300 text-sm cursor-pointer flex items-center gap-1">Chief Operating Officer</h4>
                                 </div>
                             </div>
-                            <div className="md:w-4/6 text-white forShadow p-6 h-[250px] mt-[80px]">
+                            <div className="md:w-4/6 text-white forShadow p-6 h-[340px] md:h-[250px] mt-[60px] md:mt-[80px]">
                                 <div>
-                                    <div className="flex justify-between items-center relative">
+                                    <div className="flex flex-col md:flex-row justify-between items-center relative">
                                         <FaRegComment className="text-gray-300 text-5xl absolute -top-24" />
                                         <div>
                                             <h2 className="text-2xl font-semibold">Web Development</h2>
@@ -128,7 +128,7 @@ function PreviousNextMethods() {
                                             <h2 className="px-4 py-2 forShadow">4/5</h2>
                                         </div>
                                     </div>
-                                    <hr className="border-b border-[0px] mb-8 border-black" />
+                                    <hr className="border-b border-[0px] mb-8 mt-4 md:mt-0 border-black" />
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, magni? Rerum nesciunt tenetur placeat laudantium deserunt, facilis ea velit! Ut.</p>
                                 </div>
                             </div>
@@ -146,13 +146,20 @@ function PreviousNextMethods() {
                 </div> */}
             </Slider>
             <div data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-ofset="500"
-                    data-aos-duration="500" style={{ textAlign: "center" }} className="absolute top-44 right-32">
+                    data-aos-offset="300"                    
+                    data-aos-duration="500" style={{ textAlign: "center" }} className="absolute top-44 right-32 hidden md:block">
                 <button className="p-4 forShadow text-white hover:text-[#FF014F]" onClick={previous}>
                     <FaArrowLeft />
                 </button>
                 <button className="p-4 forShadow text-white ml-4 hover:text-[#FF014F]" onClick={next}>
+                    <FaArrowRight />
+                </button>
+            </div>
+            <div style={{ textAlign: "center" }} className="md:hidden">
+                <button className="p-4 forShadow text-white hover:text-[#FF014F] absolute top-[530px] left-5" onClick={previous}>
+                    <FaArrowLeft />
+                </button>
+                <button className="p-4 forShadow text-white ml-4 hover:text-[#FF014F] absolute top-[530px] right-5" onClick={next}>
                     <FaArrowRight />
                 </button>
             </div>

@@ -4,8 +4,9 @@ import { TbBrandTailwind } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
 import profile from "../../assets/profile.png"
 import { TypeAnimation } from 'react-type-animation';
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp, FaDownload } from "react-icons/fa";
 import { useState } from "react";
+import resume from "../../assets/resume.pdf"
 // import AOS from "aos";
 // import 'aos/dist/aos.css'
 // import { useEffect } from "react";
@@ -20,18 +21,15 @@ export default function Banner() {
     }
     window.addEventListener('scroll', changeNav)
     const handleGoToTop = () => {
-        window.scrollTo(0,0)
-      }
+        window.scrollTo(0, 0)
+    }
     return (
-        <div className="max-w-7xl mx-auto px-2 md:px-20 min-h-[570px] py-3">
-            <div className="flex items-center h-[570px]">
-                <div data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-ofset="500"
-                    data-aos-duration="500" className="md:w-1/2">
+        <div className="max-w-7xl mx-auto px-5 md:px-20 md:min-h-[570px] py-3">
+            <div className="flex flex-col md:flex-row items-center md:h-[570px]">
+                <div className="md:w-1/2">
                     <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-sm">Welcome to my world</h3>
-                    <h2 className="text-5xl text-white font-Montserrat font-bold pt-3 pb-2">Hi, I&apos;m <span className="text-[#FF014F]">Md Soyeb</span></h2>
-                    <h2 className="text-5xl text-white font-Montserrat font-bold pt-3 pb-2">a&nbsp;
+                    <h2 className="text-3xl md:text-5xl text-white font-Montserrat font-bold pt-2 md:pt-3 pb-2">Hi, I&apos;m <span className="text-[#FF014F]">Md Soyeb</span></h2>
+                    <h2 className="text-3xl md:text-5xl text-white font-Montserrat font-bold pt-0 md:pt-3 pb-2">a&nbsp;
                         <TypeAnimation
                             sequence={[
                                 'Web Developer', // Types 'One'
@@ -50,7 +48,10 @@ export default function Banner() {
                         />
                     </h2>
                     <p className="text-gray-300 text-sm mt-3">MERN Stack Developer with a year of expertise in React, Node.js, MongoDB. Committed to excellence and ongoing learning.</p>
-                    <div className="flex py-8 mt-16">
+                    <div className="mt-8 cursor-pointer">
+                        <a href={resume} download className="forShadow py-2 px-8 text-gray-300 flex justify-center items-center gap-2 w-fit">Resume <FaDownload /></a>
+                    </div>
+                    <div className="flex py-8">
                         <div className="w-1/2">
                             <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-[10px] mb-4">Find With Me</h3>
                             <div className="flex gap-3">
@@ -69,18 +70,15 @@ export default function Banner() {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-ofset="500"
-                    data-aos-duration="500" className="md:w-1/2">
-                    <div className="w-full h-full px-8 relative">
+                <div className="md:w-1/2">
+                    <div className="w-full h-full px-0 md:px-8 relative">
                         <div className="forShadow w-[350px] h-[400px] mx-auto"></div>
                         <img className="absolute bottom-0" src={profile} alt="picture" />
                     </div>
                 </div>
             </div>
-            <hr className="border-b border-[0px] mb-8 border-black" />
-            <button onClick={handleGoToTop} className={`border border-[#FF014F] p-2 fixed bottom-5 right-5 rounded-full ${fixedNav ? 'block' : 'hidden'}`}><FaArrowUp className="text-white hover:text-[#FF014F] text-xl" /></button>
+            <hr className="border-b border-[0px] mb-8 mt-8 md:mt-0 border-black" />
+            <button onClick={handleGoToTop} className={`border border-[#FF014F] p-2 fixed bottom-5 right-5 z-50 rounded-full ${fixedNav ? 'block' : 'hidden'}`}><FaArrowUp className="text-white hover:text-[#FF014F] text-xl" /></button>
         </div>
     )
 }

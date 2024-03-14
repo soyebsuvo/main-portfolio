@@ -10,9 +10,9 @@ export default function Footer() {
                         <span className="font-Montserrat">Soyeb</span>
                     </button>
                     <div className="flex gap-3 mt-4 ml-4">
-                        <button className="p-4 forShadow"><FiFacebook className="text-white text-xl" /></button>
-                        <button className="p-4 forShadow"><FiGithub className="text-white text-xl" /></button>
-                        <button className="p-4 forShadow"><FiLinkedin className="text-white text-xl" /></button>
+                        <a href="https://web.facebook.com/kned.suvo" target="_blank" className="p-4 forShadow"><FiFacebook className="text-white text-xl" /></a>
+                        <a href="https://github.com/soyebsuvo" target="_blank" className="p-4 forShadow"><FiGithub className="text-white text-xl" /></a>
+                        <a href="https://www.linkedin.com/in/soyeb-suvo" target="_blank" className="p-4 forShadow"><FiLinkedin className="text-white text-xl" /></a>
                     </div>
                 </aside>
                 <nav>
@@ -36,7 +36,7 @@ export default function Footer() {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer>
-            <hr className="border-b border-[0px] mt-14 border-black"/>
+            <hr className="border-b border-[0px] mt-14 border-black" />
             <p className="text-gray-400 text-center text-sm pt-4">&copy; 2023. All rights reserved by Md Soyeb</p>
         </div>
     )

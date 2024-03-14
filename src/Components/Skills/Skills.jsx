@@ -1,7 +1,7 @@
 
 export default function Skills() {
   return (
-    <div className="mt-6">
+    <div className="mt-6 px-5">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
             <div className="flex justify-between items-center text-gray-300 my-2 mt-6 text-sm">
@@ -93,6 +93,7 @@ export default function Skills() {
                 <div className="bg-gradient-to-br from-[#6a67ce] to-[#fc636b] h-[6px] w-[90%] rounded-full"></div>
             </div>
         </div>
+        
       </div>
       <hr className="border-b border-[0px] mb-8 mt-12 border-black"/>
     </div>
