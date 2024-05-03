@@ -2,7 +2,7 @@ import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
 import { DiReact } from "react-icons/di";
 import { TbBrandTailwind } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
-import profile from "../../assets/profile.png"
+import profile from "../../assets/p4.png"
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowUp, FaDownload } from "react-icons/fa";
 import { useState } from "react";
